@@ -1,0 +1,16 @@
+/* DEBUG */
+div {
+  padding: 2rem 0;
+  border: 2px dashed red;
+}
+
+/* CONTENT */
+header ul {
+  list-style: none;
+}
+
+header li {
+  display: inline-block;
+}
+
+/* UTILITIES */
