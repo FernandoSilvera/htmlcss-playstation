@@ -65,8 +65,8 @@ header a {
   height: 50px;
 }
 
-.after-arrow::after {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  content: "\f078";
+.jumbo-slider-container {
+  border: none;
+  border-radius: 20px;
+  overflow: hidden;
 }
