@@ -24,7 +24,7 @@
     <div id="header-second" class="py-2">
       <div class="container-fluid">
         <div class="row align-items-center">
-          <div class="col-7">
+          <div class="col col-lg-8">
             <nav>
               <ul>
                 <li>
@@ -42,35 +42,36 @@
                     </svg>
                   </a>
                 </li>
-                <li>
+
+                <li class="d-none d-lg-inline-block">
                   <a href="#">Giochi<i class="fa fa-chevron-down fa-2xs"></i></a>
                 </li>
 
-                <li>
+                <li class="d-none d-lg-inline-block">
                   <a href="#">Hardware<i class="fa fa-chevron-down fa-2xs"></i></a>
                 </li>
 
-                <li>
+                <li class="d-none d-lg-inline-block">
                   <a href="#">Servizi<i class="fa fa-chevron-down fa-2xs"></i></a>
                 </li>
 
-                <li>
+                <li class="d-none d-lg-inline-block">
                   <a href="#">Novità<i class="fa fa-chevron-down fa-2xs"></i></a>
                 </li>
 
-                <li>
+                <li class="d-none d-lg-inline-block">
                   <a href="#">Fai acquisti<i class="fa fa-chevron-down fa-2xs"></i></a>
                 </li>
-                
-                <li>
+
+                <li class="d-none">
                   <a href="#">Supporto<i class="fa fa-chevron-down fa-2xs"></i></a>
                 </li>
               </ul>
             </nav>
           </div>
     
-          <div class="col-3 ms-auto text-end">
-            <nav>
+          <div class="col ms-auto text-end">
+            <nav class="d-none d-lg-block">
               <ul>
                 <li>
                   <a href="#">My PlayStation<i class="fa fa-chevron-down fa-2xs"></i></a>
@@ -85,6 +86,10 @@
                 </li>
               </ul>
             </nav>
+
+            <div class="d-lg-none">
+              <button id="burger-menu" class="btn btn-outline-dark"><i class="fa-solid fa-bars fa-2xl"></i></button>
+            </div>
           </div>
         </div>
       </div>
