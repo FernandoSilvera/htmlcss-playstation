@@ -53,7 +53,7 @@ header a {
   background-position: center;
 }
 
-#banner-returnal {
+#banner-game {
   width: 200px;
 }
 
@@ -64,6 +64,29 @@ header a {
 #play-5-slider .card img {
   width: 125px;
   margin: auto;
+}
+
+#it-takes-two {
+  background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#uscite .card {
+  border: none;
+}
+
+#uscite .card img {
+  border-radius: 20px;
+}
+
+#uscite .card-body {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#play-4 .card {
+  border: none;
 }
 
 .fa-chevron-down.fa-2xs {
