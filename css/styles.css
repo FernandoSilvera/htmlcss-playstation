@@ -52,7 +52,7 @@ header a {
   padding-top: 20rem;
   background-image: url("../img/jumbo-bg.png");
   background-size: cover;
-  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #banner-returnal {
