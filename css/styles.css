@@ -1,8 +1,4 @@
 /* DEBUG */
-div {
-  padding: 1rem 0;
-  border: 2px dashed red;
-}
 
 section {
   padding: 3rem 0;
@@ -14,13 +10,49 @@ footer {
   border: 2px dashed rgb(0, 0, 0);
 }
 
+svg {
+  width: 100%;
+}
+
+.fa-chevron-down.fa-2xs {
+  padding: 0 5px;
+  vertical-align: baseline;
+}
+
 /* CONTENT */
+header {
+  font-weight: 600;
+}
+
 header ul {
   list-style: none;
+  margin-bottom: 0;
+  padding: 0;
 }
 
 header li {
   display: inline-block;
+  padding: 0 10px;
+  vertical-align: middle;
+}
+
+header a {
+  color: black;
+  text-decoration: none;
+}
+
+#logo-sony {
+  width: 100px;
 }
 
 /* UTILITIES */
+.logo-container {
+  width: 50px;
+  height: 50px;
+}
+
+.after-arrow::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f078";
+}
