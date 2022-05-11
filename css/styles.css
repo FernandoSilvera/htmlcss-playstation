@@ -1,3 +1,5 @@
+
+
 /* DEBUG */
 
 section {
@@ -9,17 +11,13 @@ footer {
   border: 2px dashed rgb(0, 0, 0);
 }
 
+/* RESET */
 img {
   width: 100%;
 }
 
 svg {
   width: 100%;
-}
-
-.fa-chevron-down.fa-2xs {
-  padding: 0 5px;
-  vertical-align: baseline;
 }
 
 /* CONTENT */
@@ -57,6 +55,20 @@ header a {
 
 #banner-returnal {
   width: 200px;
+}
+
+#play-5-slider .card {
+  border: none;
+}
+
+#play-5-slider .card img {
+  width: 125px;
+  margin: auto;
+}
+
+.fa-chevron-down.fa-2xs {
+  padding: 0 5px;
+  vertical-align: baseline;
 }
 
 /* UTILITIES */
