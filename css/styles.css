@@ -18,6 +18,7 @@ img {
 
 svg {
   width: 100%;
+  height: 100%;
 }
 
 /* CONTENT */
@@ -89,6 +90,11 @@ header a {
   border: none;
 }
 
+#socials {
+  width: 500px;
+  margin: auto;
+}
+
 .fa-chevron-down.fa-2xs {
   padding: 0 5px;
   vertical-align: baseline;
@@ -100,8 +106,16 @@ header a {
   height: 50px;
 }
 
+.logo-md-container {
+  width: 125px;
+  height: 125px;
+}
+
 .jumbo-slider-container {
   border: none;
   border-radius: 20px;
   overflow: hidden;
+}
+
+.social-container {
 }
