@@ -14,7 +14,7 @@ header {
   font-weight: 600;
 }
 
-ul {
+header ul {
   list-style: none;
   margin-bottom: 0;
   padding: 0;
@@ -32,6 +32,8 @@ header a {
 }
 
 footer ul {
+  list-style: none;
+  margin-bottom: 0;
   padding: 0;
 }
 
@@ -121,3 +123,6 @@ footer a {
 .underline {
   text-decoration: underline;
 }
+
+
+/* DEBUG */
