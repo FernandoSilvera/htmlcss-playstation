@@ -9,6 +9,10 @@ svg {
   height: 100%;
 }
 
+.btn-dark:hover {
+  box-shadow: 3px 2px 3px var(--bs-dark);
+}
+
 .btn-primary:hover {
   box-shadow: 5px 4px 3px var(--bs-primary);
 }
@@ -18,7 +22,6 @@ svg {
 }
 
 .btn-light:hover {
-  background-color: rgb(210, 210, 210);
   box-shadow: 5px 4px 3px var(--bs-light);
 }
 
@@ -145,6 +148,10 @@ footer a:hover {
   border: none;
   border-radius: 20px;
   overflow: hidden;
+}
+
+.social-container:hover {
+  transform: scale(1.1, 1.1);
 }
 
 .underline {
