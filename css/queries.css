@@ -1,0 +1,16 @@
+@media (min-width: 768px) {
+  .font-size1 {
+    font-size: var(--font-size1);
+  }
+}
+
+@media (min-width: 992px) {
+.font-size2 {
+  font-size: var(--font-size2);
+}
+
+  #play-5-slider .card img {
+    width: 125px;
+    margin: auto;
+  }
+}
